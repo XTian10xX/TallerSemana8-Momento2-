@@ -57,3 +57,5 @@ function filtrarNotas() {
         listaNotas.appendChild(li);
     }
 }
+
+//Parte JavaScript incompleta
