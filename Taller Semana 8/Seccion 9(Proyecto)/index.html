@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--Punto 5-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seccion 9/Punto 9</title>
+</head>
+<body>
+    
+    <h1>Hola Usuario, puedes usar esta pagina para escribir tus notas.</h1>
+    <!--Area de Texto para la nota-->
+    <form action="/submit" method="post">
+        <label for="nota">Nota:</label>
+        <input type="text" id="nota" name="nota"><br>
+    </form>
+
+    <br>
+
+    <!--Boton para agregar la nota-->
+    <button type="submit" id="agregar">Agregar Nota</button>
+
+    <p></p>
+
+    <!--Campo de Busqueda para las Notas-->
+    <input type="text" id="busqueda" placeholder="Buscar Nota">
+
+    <br>
+
+    <!--Parrafo donde se muestran las notas-->
+    <h2>Notas Guardadas:</h2>
+    <div id="notas"></div>
+</body>
+</html>
